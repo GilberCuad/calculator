@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background: linear-gradient(rgb(57, 9, 90), rgb(7, 14, 7));
 }
 
 .main-container {
@@ -27,11 +27,21 @@ body {
 
 .header>h1 {
   margin: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background: linear-gradient(20deg, #f4f80f, #1669e6, #d71c1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
 }
 
 .header p:nth-child(3) {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 
