@@ -10,6 +10,8 @@ class Calculator {
     this.initEvents();
   }
 
+  // https://collectui.com/designers/chashi/calculator
+
   initEvents() {
     this.actionsButtons.forEach(action => {
       action.addEventListener('click', () => {

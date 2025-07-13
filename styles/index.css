@@ -1,5 +1,11 @@
 body {
-  background: linear-gradient(rgb(57, 9, 90), rgb(7, 14, 7));
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at 50% 80%, rgba(168, 85, 247, 0.3), transparent 60%), #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .main-container {
